@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS 初始化 */
+body, div, span, i, b, em, strong, img, h1, h2, h3, a, ul, li, input, select, option, button, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #333;
+}
+
+img {
+    border: 0 none;
+    vertical-align: top;
+}
+
+body {
+    font-family: "宋体";
+    background: #8d7c7c;
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    display: block;
+}
+
+.box{ width: 387px; height: 376px; background: #fff; padding: 24px 0 0 33px; margin: 0 auto;}
+#screen{ width: 354px; height: 64px; background: #cd2727; border-radius: 12px; border: 0 none; text-align: right;font-family: "宋体"; color: #fefdfd; font-size: 30px;}
+.button li{ float: left; margin: 15px 16px 4px 5px;}
+.button input{ width: 53px; height: 52px; border-radius: 9px; background: #8d7c7c; border: 0 none;font-family: "宋体"; color: #fefdfd; font-size: 30px; /*outline: none;*/}
+.button .ft18{ font-size: 18px;}
